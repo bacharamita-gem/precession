@@ -132,14 +132,19 @@ const Marquee = ({
 
 export default function TrustBar() {
   const clients = [
-    { name: "Client 1", logoUrl: "/Brand Logo/bionesia.png" },
-    { name: "Client 2", logoUrl: "/Brand Logo/CV.SEJ.png" },
-    { name: "Client 3", logoUrl: "/Brand Logo/mayora.png" },
-    { name: "Client 4", logoUrl: "/Brand Logo/PT-royal.png" },
-    { name: "Client 5", logoUrl: "/Brand Logo/simp.png" },
-    { name: "Client 6", logoUrl: "/Brand Logo/SUNGAI-BUDI.png" },
-    { name: "Client 7", logoUrl: "/Brand Logo/TJT.png" },
-    { name: "Client 8", logoUrl: "/Brand Logo/unicoco.png" },
+    { name: "Client 1", logoUrl: "/Brand Logo/A.png" },
+    { name: "Client 2", logoUrl: "/Brand Logo/basic.png" },
+    { name: "Client 3", logoUrl: "/Brand Logo/apc.png" },
+    { name: "Client 4", logoUrl: "/Brand Logo/AVM.png" },
+    { name: "Client 5", logoUrl: "/Brand Logo/Century.png" },
+    { name: "Client 6", logoUrl: "/Brand Logo/GAYatri.png" },
+    { name: "Client 7", logoUrl: "/Brand Logo/ISR.png" },
+    { name: "Client 8", logoUrl: "/Brand Logo/jaquargrouplogo.png" },
+    { name: "Client 9", logoUrl: "/Brand Logo/nitta2.png" },
+    { name: "Client 10", logoUrl: "/Brand Logo/peter.png" },
+    { name: "Client 11", logoUrl: "/Brand Logo/RAJ.png" },
+    { name: "Client 12", logoUrl: "/Brand Logo/sam.png" },
+    { name: "Client 12", logoUrl: "/Brand Logo/CB.png" },
  
   ];
 
