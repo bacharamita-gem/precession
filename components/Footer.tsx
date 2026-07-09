@@ -53,10 +53,10 @@ export default function Footer() {
           <div>
             <h5 className="text-white font-bold mb-6 tracking-wide">Products</h5>
             <ul className="space-y-4">
-              <li><a href="#products" className="text-sm text-gray-400 hover:text-white transition-colors">Belt Dryers (10–100 TPD)</a></li>
-              <li><a href="#products" className="text-sm text-gray-400 hover:text-white transition-colors">Band Dryers (5–30 TPD)</a></li>
-              <li><a href="#products" className="text-sm text-gray-400 hover:text-white transition-colors">Rotary Dryers (50+ TPD)</a></li>
-              <li><a href="#products" className="text-sm text-gray-400 hover:text-white transition-colors">Flash Dryers</a></li>
+              <li><a href="#Products" className="text-sm text-gray-400 hover:text-white transition-colors">Belt Dryers (10–100 TPD)</a></li>
+              <li><a href="#Products" className="text-sm text-gray-400 hover:text-white transition-colors">Band Dryers (5–30 TPD)</a></li>
+              <li><a href="#Products" className="text-sm text-gray-400 hover:text-white transition-colors">Rotary Dryers (50+ TPD)</a></li>
+              <li><a href="#Products" className="text-sm text-gray-400 hover:text-white transition-colors">Flash Dryers</a></li>
             </ul>
           </div>
 
@@ -64,12 +64,12 @@ export default function Footer() {
           <div>
             <h5 className="text-white font-bold mb-6 tracking-wide">Verticals</h5>
             <ul className="space-y-4">
-              <li><a href="#verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Coconut Processing</a></li>
-              <li><a href="#verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Cereal & Nuts</a></li>
-              <li><a href="#verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Cranberry & Fruit</a></li>
-              <li><a href="#verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Specialty Foods</a></li>
-              <li><a href="#verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Rubber & Fibers</a></li>
-              <li><a href="#verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Fertilizers</a></li>
+              <li><a href="#Verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Coconut Processing</a></li>
+              <li><a href="#Verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Cereal & Nuts</a></li>
+              <li><a href="#Verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Cranberry & Fruit</a></li>
+              <li><a href="#Verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Specialty Foods</a></li>
+              <li><a href="#Verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Rubber & Fibers</a></li>
+              <li><a href="#Verticals" className="text-sm text-gray-400 hover:text-white transition-colors">Fertilizers</a></li>
             </ul>
           </div>
 
