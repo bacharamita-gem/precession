@@ -73,7 +73,7 @@ Phone: +${phone}
         style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}
         aria-label="Download Brochure"
       >
-        <span className="relative z-10"> Brochure</span>
+        <span className="relative z-10">Download Brochure</span>
         <div className="absolute left-[-20%] w-[140%] h-[15px] bg-white/40 blur-[4px] shiny-wave-effect z-0 pointer-events-none transform rotate-12"></div>
       </button>
 
