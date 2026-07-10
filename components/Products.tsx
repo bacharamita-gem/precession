@@ -55,7 +55,7 @@ export default function Products() {
   name: "Paddle Dryer",
   tag: "Indirect Drying",
   featured: false,
-  capacity: "1 – 50 TPD · Low Energy Consumption",
+  capacity: "50Kg – 2,000 kgs/hr · Low Energy Consumption",
   desc: "Indirectly heated paddle dryer designed for sludge, filter cake, biomass, chemicals, and industrial by-products. Gentle mixing and efficient heat transfer ensure uniform drying with minimal dust generation and excellent thermal efficiency.",
   apps: [
     "Municipal Sludge",
@@ -72,7 +72,7 @@ export default function Products() {
   name: "Vibratory Fluid Bed Dryer (VFBD)",
   tag: "Gentle Fluidization",
   featured: false,
-  capacity: "250 – 10,000 kg/hr · Continuous",
+  capacity: "1 – 150 TPD · Continuous",
   desc: "Designed for free-flowing granular and crystalline materials. Controlled vibration combined with fluidized air ensures gentle product handling, uniform moisture removal, and high thermal efficiency.",
   apps: [
     "Food Products",

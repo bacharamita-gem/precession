@@ -143,8 +143,8 @@ export default function TrustBar() {
     { name: "Client 9", logoUrl: "/Brand Logo/nitta2.png" },
     { name: "Client 10", logoUrl: "/Brand Logo/peter.png" },
     { name: "Client 11", logoUrl: "/Brand Logo/RAJ.png" },
-    { name: "Client 12", logoUrl: "/Brand Logo/sam.png" },
-    { name: "Client 12", logoUrl: "/Brand Logo/CB.png" },
+    { name: "Client 12", logoUrl: "/Brand Logo/Sam.png" },
+    { name: "Client 13", logoUrl: "/Brand Logo/CB.png" },
  
   ];
 
