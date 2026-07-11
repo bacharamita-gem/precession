@@ -57,6 +57,9 @@ export default function Footer() {
               <li><a href="#Products" className="text-sm text-gray-400 hover:text-white transition-colors">Band Dryers (5–30 TPD)</a></li>
               <li><a href="#Products" className="text-sm text-gray-400 hover:text-white transition-colors">Rotary Dryers (50+ TPD)</a></li>
               <li><a href="#Products" className="text-sm text-gray-400 hover:text-white transition-colors">Flash Dryers</a></li>
+              <li><a href="#Products" className="text-sm text-gray-400 hover:text-white transition-colors">Paddle Dryers</a></li>
+              <li><a href="#Products" className="text-sm text-gray-400 hover:text-white transition-colors">Vibratory Fluid Bed Dryers</a></li>
+
             </ul>
           </div>
 
