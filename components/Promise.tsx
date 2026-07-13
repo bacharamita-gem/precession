@@ -30,7 +30,7 @@ export default function PromiseSection() {
 
   return (
     <section
-      className="w-full py-24 bg-[#0B1F3A] font-sans border-t-4 border-[#d25f4b]"
+      className="w-full pt-16 pb-14 bg-[#0B1F3A] font-sans border-t-4 border-[#d25f4b]"
       id="promise"
       style={{ fontFamily: "Arial, Helvetica, sans-serif" }}
     >
@@ -55,34 +55,82 @@ export default function PromiseSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
-          {promises.map((item, index) => (
-            <div key={index} className="flex items-start group">
-              <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#d25f4b]/10 border border-[#d25f4b]/30 flex items-center justify-center mr-5 mt-1 group-hover:bg-[#d25f4b] group-hover:border-[#d25f4b] transition-colors duration-300">
-                <svg
-                  className="w-4 h-4 text-[#d25f4b] group-hover:text-white transition-colors"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={3}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h4 className="text-xl font-bold text-white mb-3 group-hover:text-[#fbc6ba] transition-colors">
-                  {item.title}
-                </h4>
-                <p className="text-sm text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                  {item.desc}
-                </p>
-              </div>
-            </div>
-          ))}
+          {/* First 5 Promise Cards */}
+{promises.slice(0, 5).map((item, index) => (
+  <div key={index} className="flex items-start group">
+    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#d25f4b]/10 border border-[#d25f4b]/30 flex items-center justify-center mr-5 mt-1 group-hover:bg-[#d25f4b] group-hover:border-[#d25f4b] transition-colors duration-300">
+      <svg
+        className="w-4 h-4 text-[#d25f4b] group-hover:text-white transition-colors"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        strokeWidth={3}
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M5 13l4 4L19 7"
+        />
+      </svg>
+    </div>
+
+    <div>
+      <h4 className="text-xl font-bold text-white mb-3">
+        {item.title}
+      </h4>
+
+      <p className="text-sm text-gray-400 leading-relaxed">
+        {item.desc}
+      </p>
+    </div>
+  </div>
+))}
+
+{/* Training Card */}
+<div className="flex items-start group">
+  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#d25f4b]/10 border border-[#d25f4b]/30 flex items-center justify-center mr-5 mt-1">
+    <svg
+      className="w-4 h-4 text-[#d25f4b]"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={3}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M5 13l4 4L19 7"
+      />
+    </svg>
+  </div>
+
+  <div>
+    <h4 className="text-xl font-bold text-white mb-3">
+      {promises[5].title}
+    </h4>
+
+    <p className="text-sm text-gray-400 leading-relaxed">
+      {promises[5].desc}
+    </p>
+  </div>
+</div>
+
+{/* YouTube Video */}
+<div className="lg:col-span-2 flex justify-center items-start">
+  <div className="w-full max-w-xl aspect-video overflow-hidden rounded-xl">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/S1HvaDO0I7Q"
+    title="GEM Drytech Video"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  />
+</div>
+</div>
         </div>
+        
       </div>
     </section>
   );
